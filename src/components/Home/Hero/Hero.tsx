@@ -76,7 +76,7 @@ const Hero = () => {
         </p>
         <p className="text-emerald-400 text-base md:text-xl lg:text-2xl">collection of top brands</p>
          </div>
-       <div className='w-full flex  justify-center items-center gap-6 md:gap-10 '> 
+       <div className=' w-[4vh] md:w-[20vh] flex  justify-center items-center gap-6 md:gap-10 '> 
         <Image src={AppleLogo} alt="apple"/>
         <Image src={SamsungLogo} alt="SamsungLogo"/>
         <Image src={LenovoLogo} alt="LenovoLogo"/>
