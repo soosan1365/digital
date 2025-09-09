@@ -33,7 +33,7 @@ const Hero = () => {
       {/* rightCarousel  */}
       <div className="w-[60%] md:w-[75%] mx-auto  grid items-center justify-center grid-cols-1
        lg:grid-cols-2  gap-10 ">
-     <div className='mx-auto  '>
+     <div className='mx-auto w-[95%] md:w-100% '>
       <Carousel
       plugins={[plugin.current]}
       className="w-full mt-20 lg:mt-24 "
@@ -65,13 +65,13 @@ const Hero = () => {
       </div>
       {/* leftcontent */}
       <div className="flex flex-col justify-between items-center  font-extrabold
-      leading-[2.5rem] md:leading-[4rem] gap-4 md:gap-10 ">
+      leading-[2.5rem] md:leading-[4rem] gap-2 lg:gap-9 ">
         <h1 className="bg-gradient-to-b md:mt-22 from-[#68d687]  to-[#8eaac4] text-transparent
-         bg-clip-text text-3xl  md:text-4xl  lg:text-5xl xl:text-7xl font-serif">Dijital</h1>
-         <div className='flex flex-col justify-center items-center gap-1.5 md:gap-3 '>
-           <h6 className=" text-gray-700 dark:text-white text-xl md:text-2l lg:text-3xl"> Curated Excellence</h6>
-        <p className=" text-gray-700 dark:text-white text-center text-base md:text-xl lg:text-2xl 
-         leading-[2.5rem] md:leading-[4rem]">
+         bg-clip-text text-2xl  md:text-3xl  lg:text-4xl xl:text-7xl font-serif">Dijital</h1>
+         <div className='flex flex-col justify-center items-center  md:gap-3 '>
+           <p className=" text-gray-700 dark:text-white text-xl md:text-2xl  xl:text-3xl"> Curated Excellence</p>
+        <p className=" text-gray-700 dark:text-white text-center text-sm md:text-base lg:text-xl 
+         ">
           Specialized mobile and laptop store with an unparalleled
         </p>
         <p className="text-emerald-400 text-base md:text-xl lg:text-2xl">collection of top brands</p>
