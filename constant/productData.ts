@@ -1,8 +1,5 @@
 
-export interface NavItem {
-  titlt: string
-  link: string
-}
+
 
 
 
@@ -15,24 +12,7 @@ export interface Product {
   imgSrc: string
 }
 
-export const navs: NavItem[] = [
-  {
-    titlt: 'Home',
-    link: '/home',
-  },
-  {
-    titlt: 'Store',
-    link: '/store',
-  },
-  {
-    titlt: 'Services',
-    link: '/services',
-  },
-  {
-    titlt: 'Contact Us',
-    link: '/contact us',
-  },
-]
+
 
 
 
