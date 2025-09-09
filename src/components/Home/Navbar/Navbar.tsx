@@ -7,6 +7,7 @@ import { Navlinks } from '../../../../constant/constant'
 import MobileNav from './MobileNav'
 import { useEffect, useState } from 'react'
 import ThemeToggler from '../Helper/ThemeToggler'
+import { Button } from '@/components/ui'
 
 const Navbar = () => {
   const [navbg, setNavbg] = useState(false)
@@ -49,14 +50,11 @@ const Navbar = () => {
         </div>
         {/* left */}
         <div className="flex items-center justify-center space-x-4    ">
-          <button
+          <Button variant="link" 
             className="bg-gradient-to-b text-gray-800 from-[#82e697] to-[#d4f1fa]
-             px-4 py-1.5 md:px-6  lg:px-9 lg:py-3
-            font-semibold   lg:text-xl text-[14px] 
-           rounded-lg hover:bg-white transition-all duration-300 cursor-pointer"
-          >
+           transition-all duration-300 cursor-pointer py-3 px-6 ">
             sign in
-          </button>
+          </Button>
           {/* dark&light menu */}
           <ThemeToggler />
           {/* cart icon */}
