@@ -66,8 +66,8 @@ const Hero = () => {
       {/* leftcontent */}
       <div className="flex flex-col justify-between items-center  font-extrabold
       leading-[2.5rem] md:leading-[4rem] gap-4 md:gap-10 ">
-        <h1 className="bg-gradient-to-b  from-[#68d687]  to-[#8eaac4] text-transparent
-         bg-clip-text text-4xl  md:text-5xl lg:text-7xl font-serif">Dijital</h1>
+        <h1 className="bg-gradient-to-b md:mt-22 from-[#68d687]  to-[#8eaac4] text-transparent
+         bg-clip-text text-3xl  md:text-4xl  lg:text-5xl xl:text-7xl font-serif">Dijital</h1>
          <div className='flex flex-col justify-center items-center gap-1.5 md:gap-3 '>
            <h6 className=" text-gray-700 dark:text-white text-xl md:text-2l lg:text-3xl"> Curated Excellence</h6>
         <p className=" text-gray-700 dark:text-white text-center text-base md:text-xl lg:text-2xl 

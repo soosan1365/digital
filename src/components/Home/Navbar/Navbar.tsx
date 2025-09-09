@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ShoppingBasketIcon } from 'lucide-react'
-import logolight from '@/assets/logolight.png'
+import logo1 from '@/assets/logo1.png'
 import { Navlinks } from '../../../../constant/constant'
 import MobileNav from './MobileNav'
 import { useEffect, useState } from 'react'
@@ -31,7 +31,7 @@ const Navbar = () => {
       >
         {/* right */}
         <Link href="/">
-          <Image className="w-[7vw] min-w-20" src={logolight}  alt="" />
+          <Image className="w-[7vw] min-w-20" src={logo1}  alt="" />
         </Link>
         {/* center */}
         <div className=" hidden  lg:flex items-center space-x-10 ">
