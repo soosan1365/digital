@@ -2,8 +2,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ShoppingBasketIcon } from 'lucide-react'
-import logo1 from '@/assets/logo1.png'
-import { Navlinks } from '../../../../constant/constant'
+import logo1 from "@/assets/logo1.png"
+import { Navlinks } from '@/constant/constant'
 import MobileNav from './MobileNav'
 import { useEffect, useState } from 'react'
 import ThemeToggler from '../Helper/ThemeToggler'
@@ -50,9 +50,7 @@ const Navbar = () => {
         </div>
         {/* left */}
         <div className="flex items-center justify-center space-x-4    ">
-          <Button variant="link" 
-            className="bg-gradient-to-b text-gray-800 from-[#82e697] to-[#d4f1fa]
-           transition-all duration-300 cursor-pointer  py-3 px-6 sm:py-2 sm:px-4  md:py-4 md:px-8 ">
+          <Button variant="link">
             sign in
           </Button>
           {/* dark&light menu */}

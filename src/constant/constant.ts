@@ -1,53 +1,76 @@
-
-
-
-
-
+export interface NavItem {
+  id: string;
+  url: string;
+  label: string;
+}
 export interface Product {
   id: number
   name: string
   description: string
   rating: number
   price: string
-  imgSrc: string
+  imgSrc:string 
 }
 
+export const Navlinks:NavItem[] = [
+  {
+    id: "1",
+    url: "#_",
+    label: "Home",
+  },
+    {
+    id: "2",
+    url: "#_",
+    label: "Store",
+  },  {
+    id: "3",
+    url: "#_",
+    label: "Features",
+  },  {
+    id: "4",
+    url: "#_",
+    label: "Menu",
+  },
+  {
+    id: "5",
+    url: "#_",
+    label: "Contact",
+  },
+  
 
-
-
-
-const products: Product[] = [
+];
+export const products: Product[] = [
   {
     id: 1,
     name: 'Apple Earphones',
     description: 'Noise-cancellation, 40-hour battery',
     rating: 4.5,
     price: '$299.99',
-    imgSrc: 'assets.apple_earphone_image',
+    imgSrc: "/assets/apple_earphone_image.png"
   },
   {
     id: 2,
-    name: 'Bose QuietComfort 45',
-    description: 'Noise Cancellation, 24-hour battery',
-    rating: 4.5,
-    price: '$329.99',
-    imgSrc: ' assets.bose_headphone_image',
+    name:'Bose QuietComfort 45',
+    description:'Noise Cancellation, 24-hour battery',
+    rating:4.5,
+    price:'$329.99',
+    imgSrc:"/assets/bose_headphone_image.png"
   },
   {
-    id: 3,
-    name: 'Samsung Galaxy S23',
+    id:3,
+    name:'Samsung Galaxy S23',
     description: 'Fitness Tracking, AMOLED Display',
-    rating: 4.5,
-    price: '$799.99',
-    imgSrc: ' assets.samsung_s23phone_image',
+    rating:4.5,
+    price:'$799.99',
+    imgSrc:'/assets/samsung_s23phone_image.png',
   },
   {
     id: 4,
-    name: 'Garmin Venu 2',
-    description: 'Noise Cancellation, 24-hour battery',
-    rating: 4.5,
-    price: '$349.99',
-    imgSrc: ' assets.venu_watch_image',
+    name:'Garmin Venu 2',
+    description:'Noise Cancellation, 24-hour battery',
+    rating:4.5,
+    price:'$349.99',
+    imgSrc:'/assets/venu_watch_image.png',
   },
   {
     id: 5,
@@ -55,7 +78,7 @@ const products: Product[] = [
     description: 'Ultra-HD, 825GB SSD, Ray Graphics',
     rating: 4.5,
     price: '$499.99',
-    imgSrc: ' assets.apple_earphone_image',
+    imgSrc: '/assets/apple_earphone_image.png',
   },
   {
     id: 6,
@@ -63,7 +86,7 @@ const products: Product[] = [
     description: '45MP Sensor, 8K Video Recording',
     rating: 4.5,
     price: '$3,899.99',
-    imgSrc: 'assets.cannon_camera_image',
+    imgSrc: '/assets/cannon_camera_image.png',
   },
   {
     id: 7,
@@ -71,7 +94,7 @@ const products: Product[] = [
     description: 'M2 Pro Chip, 16GB RAM, 512GB SSD',
     rating: 4.5,
     price: '$2,499.99',
-    imgSrc: ' assets.macbook_image',
+    imgSrc: '/assets/macbook_image.png',
   },
   {
     id: 8,
@@ -79,7 +102,7 @@ const products: Product[] = [
     description: 'Noise-Cancellation, Hi-Res Audio',
     rating: 4.5,
     price: '$299.99',
-    imgSrc: 'assets.sony_airbuds_image',
+    imgSrc: '/assets/sony_airbuds_image.png',
   },
   {
     id: 9,
@@ -87,7 +110,7 @@ const products: Product[] = [
     description: '4K Ultra HD, Realistic, Built-In Speaker',
     rating: 4.5,
     price: '$1,499.99',
-    imgSrc: 'assets.projector_image',
+    imgSrc: '/assets/projector_image.png'
   },
   {
     id: 10,
@@ -95,7 +118,7 @@ const products: Product[] = [
     description: 'Intel Core i9, RTX 4070, 16GB, 1TB',
     rating: 4.5,
     price: '$1,999.99',
-    imgSrc: 'assets.asus_laptop_image',
+    imgSrc: '/assets/asus_laptop_image.png',
   },
   {
     id: 11,
@@ -103,7 +126,7 @@ const products: Product[] = [
     description: 'Noise-cancellation, 40-hour battery',
     rating: 4.5,
     price: '$299.99',
-    imgSrc: 'assets.apple_earphone_image',
+    imgSrc: '/assets/apple_earphone_image.png',
   },
   {
     id: 12,
@@ -111,7 +134,7 @@ const products: Product[] = [
     description: 'Noise Cancellation, 24-hour battery',
     rating: 4.5,
     price: '$329.99',
-    imgSrc: 'assets.bose_headphone_image',
+    imgSrc: '/assets/bose_headphone_image.png',
   },
   {
     id: 13,
@@ -119,7 +142,7 @@ const products: Product[] = [
     description: 'Fitness Tracking, AMOLED Display',
     rating: 4.5,
     price: '$799.99',
-    imgSrc: ' assets.samsung_s23phone_image',
+    imgSrc: '/assets/samsung_s23phone_image.png',
   },
   {
     id: 14,
@@ -127,7 +150,7 @@ const products: Product[] = [
     description: 'Noise Cancellation, 24-hour battery',
     rating: 4.5,
     price: '$349.99',
-    imgSrc: ' assets.venu_watch_image',
+    imgSrc: '/assets/venu_watch_image.png',
   },
   {
     id: 15,
@@ -135,7 +158,7 @@ const products: Product[] = [
     description: 'Ultra-HD, 825GB SSD, Ray Graphics',
     rating: 4.5,
     price: '$499.99',
-    imgSrc: ' assets.apple_earphone_image',
+    imgSrc: '/assets/apple_earphone_image.png',
   },
   {
     id: 16,
@@ -143,7 +166,7 @@ const products: Product[] = [
     description: '45MP Sensor, 8K Video Recording',
     rating: 4.5,
     price: '$3,899.99',
-    imgSrc: 'assets.cannon_camera_image',
+    imgSrc: '/assets/cannon_camera_image.png',
   },
   {
     id: 17,
@@ -151,7 +174,7 @@ const products: Product[] = [
     description: 'M2 Pro Chip, 16GB RAM, 512GB SSD',
     rating: 4.5,
     price: '$2,499.99',
-    imgSrc: ' assets.macbook_image',
+    imgSrc: '/assets/macbook_image.png',
   },
   {
     id: 18,
@@ -159,7 +182,7 @@ const products: Product[] = [
     description: 'Noise-Cancellation, Hi-Res Audio',
     rating: 4.5,
     price: '$299.99',
-    imgSrc: 'assets.sony_airbuds_image',
+    imgSrc: '/assets/sony_airbuds_image.png',
   },
   {
     id: 19,
@@ -167,7 +190,7 @@ const products: Product[] = [
     description: '4K Ultra HD, Realistic, Built-In Speaker',
     rating: 4.5,
     price: '$1,499.99',
-    imgSrc: ' assets.projector_image',
+    imgSrc: '/assets/projector_image.png',
   },
   {
     id: 20,
@@ -175,6 +198,6 @@ const products: Product[] = [
     description: 'Intel Core i9, RTX 4070, 16GB, 1TB',
     rating: 4.5,
     price: '$1,999.99',
-    imgSrc: ' assets.asus_laptop_image',
+    imgSrc: '/assets/asus_laptop_image.png',
   },
 ]

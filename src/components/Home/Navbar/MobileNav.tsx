@@ -1,6 +1,6 @@
 import React from 'react'
 import { MenuIcon } from 'lucide-react'
-import { Navlinks } from '../../../../constant/constant'
+import { Navlinks } from '../../../constant/constant'
 import Link from 'next/link'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 
@@ -18,7 +18,7 @@ const MobileNav = () => {
             <Link
               key={link.id}
               href={link.url}
-              className="text-black hover:text-green-700 w-fit
+              className="text-black dark:text-white hover:text-green-700 w-fit
             font-bold "
             ><p>{link.label}</p>
             

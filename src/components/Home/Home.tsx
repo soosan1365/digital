@@ -1,11 +1,12 @@
 import React from 'react'
 import Hero from './Hero/Hero'
+import Store from "./Store/Store"
 
 const Home = () => {
   return (
-    <div className='overflow-x-hidden h-[2000px]  '>
+    <div className='overflow-x-hidden  '>
       <Hero/>
-      
+      <Store/>
     </div>
   )
 }
