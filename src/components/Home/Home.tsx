@@ -3,7 +3,7 @@ import Hero from './Hero/Hero'
 
 const Home = () => {
   return (
-    <div className='overflow-x-hidden  '>
+    <div className='overflow-x-hidden h-[2000px]  '>
       <Hero/>
       
     </div>

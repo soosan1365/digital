@@ -24,10 +24,10 @@ const Navbar = () => {
   return (
     <div
       className={` ${navbg ? 'bg-white dark:bg-gradient-to-b from-[#141b15] to-[#48534c] shadow-sm' : 'fixed'} fixed   top-0
-   w-full mt-2 px-4   lg:px-16 z-50 transition-all `}
+   w-full  px-4   lg:px-16 z-50 transition-all `}
     >
       <nav
-        className="flex justify-between items-center h-full w-[90%] xl:w-[80%]  mx-auto rounded-4xl 
+        className="flex justify-between items-center h-full w-[90%] xl:w-[80%] mt-2 mx-auto rounded-4xl 
       "
       >
         {/* right */}
