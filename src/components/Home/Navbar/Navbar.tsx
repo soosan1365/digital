@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className="flex items-center justify-center space-x-4    ">
           <Button variant="link" 
             className="bg-gradient-to-b text-gray-800 from-[#82e697] to-[#d4f1fa]
-           transition-all duration-300 cursor-pointer py-3 px-6 ">
+           transition-all duration-300 cursor-pointer  py-3 px-6 sm:py-2 sm:px-4  md:py-4 md:px-8 ">
             sign in
           </Button>
           {/* dark&light menu */}
