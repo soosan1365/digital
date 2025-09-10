@@ -25,18 +25,18 @@ import microsoft from "@/assets/microsoft.jpg";
 const Hero = () => {
 
   const plugin = React.useRef(
-    Autoplay({ delay: 5000, stopOnInteraction: true })
+    Autoplay({ delay:4000, stopOnInteraction: true })
   )
 
   return (
     <div className="relative w-full   flex flex-col justify-center  ">
       {/* rightCarousel  */}
-      <div className="w-[60%] md:w-[75%] mx-auto  grid items-center justify-center grid-cols-1
+      <div className="w-[60%] md:w-[80%] mx-auto  grid items-center justify-center grid-cols-1
        lg:grid-cols-2  gap-10 ">
      <div className='mx-auto sm:w-[90%]  md:w-98% '>
       <Carousel
       plugins={[plugin.current]}
-      className="w-full mt-20 lg:mt-24 "
+      className="w-full mt-20 lg:mt-28 "
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
