@@ -16,7 +16,8 @@ type PRODUCT = {
 const StoreCard = ({ name, rating, price, imgSrc }: PRODUCT) => {
   return (
     <div className="relative flex flex-col justify-between items-center shadow-[#ece7e7] shadow-lg
-     dark:shadow-white/35 bg-gray-100 dark:bg-gradient-to-b text-gray-800 from-[#cff7d8] to-[#f4f7f8] rounded-2xl">
+     dark:shadow-white/35 bg-gray-50 dark:bg-gradient-to-b text-gray-800 from-[#cff7d8]
+      to-[#f4f7f8] rounded-2xl border-[0.5px] border-[#e2dada]">
       <div className="flex  flex-col items-center justify-center">
         <Image
           src={imgSrc}
