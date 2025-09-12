@@ -78,6 +78,7 @@
 }
 
 .dark {
+  
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
@@ -121,3 +122,8 @@
 }
 
 
+.dark {
+  background-image: url('/assets/bg.jpg'); /* مسیر عکس را با توجه به public تنظیم کن */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;}

@@ -6,7 +6,7 @@ import TrustUs from './Trust/TrustUs'
 
 const Home = () => {
   return (
-    <div className='overflow-x-hidden bg-'>
+    <div className='overflow-x-hidden '>
       <Hero/>
       <Category/>
       <Store/>

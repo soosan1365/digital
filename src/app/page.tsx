@@ -1,7 +1,7 @@
 import Home from '@/components/Home/Home'
 function HomePage() {
   return (
-    <div >
+    <div  className="main">
       <Home />
     </div>
   )
