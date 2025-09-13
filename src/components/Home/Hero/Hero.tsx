@@ -91,7 +91,7 @@ const Hero = () => {
             </p>
           </div>
           <div className=" w-[4vh] md:w-[20vh] flex  justify-center items-center gap-6 md:gap-10 ">
-            <Image src={AppleLogo} alt="apple" />
+            <Image src={AppleLogo} alt="apple"/>
             <Image src={SamsungLogo} alt="SamsungLogo" />
             <Image src={LenovoLogo} alt="LenovoLogo" />
             <Image src={AsusLogo} alt="AsusLogo" />
