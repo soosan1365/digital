@@ -52,7 +52,7 @@ const Hero = () => {
                         <Image
                           src={image}
                           alt=""
-                          className="object-cover h-full w-full rounded-tr-[50%]"
+                          className="object-cover h-full w-full rounded-tr-[50%] shadow-lg shadow-green-300"
                         />
                       </CardContent>
                     </Card>
@@ -70,7 +70,7 @@ const Hero = () => {
       leading-[2.5rem] md:leading-[4rem] md:mt-16 lg:mt-22 gap-2 sm:gap-5  lg:gap-9 "
         >
           <h1
-            className="bg-gradient-to-b  from-[#68d687]  to-[#8eaac4] text-transparent
+            className="bg-gradient-to-r   from-[#56ce78]  from-50% to-[#a9e0bb] text-transparent
          bg-clip-text text-2xl  md:text-3xl  lg:text-4xl xl:text-7xl font-serif"
           >
             Dijital
